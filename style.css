@@ -77,3 +77,17 @@ ul li{
     width: 440px;
     height: 414px; 
 }
+.sponsor{
+    margin: 69px 165px;   
+}
+.sponsor-logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 62px;
+}
+ hr{
+    border: 0px;
+    height: 2px;
+    background-image: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+}
+
