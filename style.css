@@ -59,9 +59,13 @@ li a .fas{
     justify-content: center;
     align-items: center;
     margin-top: 25px;
+    transition: transform 1s ease-out;
 }
 .button a{
     color: #FFFFFF;
+}
+.button:hover{
+    transform: scale(1.15);
 }
 .circle-1{
     width: 440px;
@@ -81,9 +85,14 @@ li a .fas{
     border-radius: 50%;
     border: 68.42px solid #F1E4FF;
 }
+
 .influencer img {
     width: 440px;
     height: 414px; 
+    transition: transform 1.5s ease-out;
+}
+.influencer img:hover{
+    transform: scale(1.15);
 }
 .sponsor{
     margin: 69px;   
@@ -171,6 +180,31 @@ main section{
      color: #E02C6D;
      font-weight: bold;
      font-size: 16px;   
+ }
+ .shipping{
+     display: flex;
+     justify-content: space-between;
+     margin: 100px 69px;
+     width: 1110px;
+     background-color: #ffffff;
+     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+     border-radius: 10px;
+ }
+ .shipping-service{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 40px 35px;
+     transition: transform 1s ease-out;
+ }
+ .shipping-service .fas {
+     font-size: 1.7em;
+     background-color: #d9dbe1b2;
+     border-radius: 50%;
+     padding: 15px;
+ }
+ .shipping-service:hover{
+     transform: scale(1.2);
  }
 footer{
     display: flex;
