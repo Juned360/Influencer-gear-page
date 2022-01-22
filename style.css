@@ -242,6 +242,110 @@ footer .social-media .fab{
     border-radius: 50%;
     width: 32px;
     height: 32px;
-    color: #FFFFFF;
-    
+    color: #FFFFFF; 
+}
+
+@media only screen and (max-width: 688px) {
+    header{
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+       
+    }
+    .nav-division{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* nav ul li .fas{
+        display: block;
+    } */
+    .section-for-header{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .heading-article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .heading-tittle{
+        margin-bottom: 0;
+    }
+    .heading-article h1 {
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+    .heading-details p{
+        font-size: 14px;
+    }
+    .button{
+        margin-top: 5px;
+    }
+    .influencer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .circle-1{
+        width: 257px;
+        height: 257px;
+    }
+    .circle-2{
+        width: 105.76px;
+        height: 105.76px;
+        border: 40.42px solid #F1E4FF;
+    }
+    .influencer img {
+        width: 230px;
+        height: 215px;
+    }
+    .sponsor {
+        margin: 30px 15px;
+    }
+    Hr{
+       display: none;
+    }
+    .sponsor-logo{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .sponsor-logo img{
+        transform: scale(0.50);
+    }
+    .collection{
+        width: 100%;
+    }
+    .collection-iteams {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 310px;
+   }
+   .exploreing {
+       width: 80%;
+   }
+   .shipping{
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       margin: 60px 0px;
+   }
+   .shipping-service{
+       transform: scale(0.8);
+       padding: 0%;
+   }
+   footer{
+       width: 100%;
+   }
+    nav{
+        display: none;
+    }
 }
