@@ -254,12 +254,18 @@ footer .social-media .fab{
     }
     .nav-division{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
-    /* nav ul li .fas{
-        display: block;
-    } */
+    nav ul{
+        padding: 0%;
+    }
+    ul li{
+        padding: 10px;
+    }
+    .explore{
+        display: none;
+    }
     .section-for-header{
         display: flex;
         flex-direction: column;
@@ -345,9 +351,6 @@ footer .social-media .fab{
    footer{
        width: 100%;
    }
-    nav{
-        display: none;
-    }
 }
 @media only screen and (min-width: 689px) and (
     max-width: 992px) {
